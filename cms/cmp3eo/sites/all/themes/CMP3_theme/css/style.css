@@ -1,0 +1,99 @@
+/**
+ * Place your custom styles here.
+ */
+
+/* Body */
+
+body{
+    font-family: Calibri;
+    background-color: #D4D5D6;
+}
+
+h1, h2{
+    font-weight: bold;
+}
+
+/* Nav-bar */
+
+.navbar{
+    background-color: #58595B;
+}
+
+.navbar a{
+    color: #fff;
+}
+
+.navbar a:hover{
+    background-color: #000000;
+}
+
+.navbar .social-icon a:hover{
+    background-color: #58595B;
+}
+
+.navbar .name{
+    font-weight: bold;
+}
+
+/* Article - Custom grid */
+
+.page-article-custom-grid .view-content{
+    overflow: hidden;
+}
+
+.page-article-custom-grid .col{
+    margin-bottom: 20px;
+}
+
+/* Article */
+
+.node-type-article .field-name-field-image img{
+    max-width: 100%;
+    height: auto;
+}
+
+.node-type-article .view-article-photo-gallery .col{
+    margin-bottom: 20px;
+}
+
+.node-type-article .view-article-photo-gallery .modal-body img{
+    width: 100%;
+    height: auto;
+}   
+
+.comment-wrapper{
+    float: left;
+}
+
+.addthis_toolbox{
+    margin-top: 20px;
+}
+
+/* Navigation */
+
+.navbar-nav span{
+    margin-right: 5px;
+}
+
+/* Social Media */
+
+.social-icon p{
+    margin:0;
+}
+
+.social-icon p a{
+    margin-left:5px;
+    font-size: 35px;
+    color: #fff;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 20px; padding: 20px 0 0; background-color: #222;
+    color: #fff;
+}
+
+footer a{
+    color: #fff;
+}
